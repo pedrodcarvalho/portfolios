@@ -1,0 +1,30 @@
+* {
+  margin: 0px;
+  padding: 10px;
+  font-family: "Roboto", sans-serif;
+  background-color: #f5deb3;
+  text-align: center;
+}
+
+td,
+tr {
+  border-radius: 0.5em;
+  text-align: center;
+  background-color: #788fa5;
+  text-align: center;
+}
+
+td:hover {
+  background-color: #415262;
+}
+
+table {
+  border: #415262;
+  border-style: solid;
+  border-width: 0.2em;
+  border-radius: 10px;
+  position: relative;
+  margin: 0% 42.5%;
+  top: 100px;
+  bottom: 100px;
+}

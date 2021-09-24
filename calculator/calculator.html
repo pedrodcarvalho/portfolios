@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/calculator/js/script.js"></script>
+    <link rel="stylesheet" href="/calculator/css/style.css">
+    <link rel="shortcut icon" href="/favicons/calculator.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap">
+    <title>Calculator</title>
+  </head>
+  <body onload="onLoad()">
+    <form name="calculator" id="calculator">
+      <h1>Basic Calculator Project</h1>
+      <p>Project made in web development class</p>
+      <p>Made by: Pedro Domitti de Carvalho</p>
+      <p>This calculator respects the hierachy of operations</p>
+      <table>
+        <tr>
+          <td colspan="10"><input type="text" name="visor"></td>
+        </tr>
+        <tr>
+          <td colspan="10"><input type="text" name="visor2"></td>
+        </tr>
+        <tr>
+          <td><button name="button" type="button" id="btnmc" value="mc" onclick="memoryClr()">MC</button></td>
+          <td><button name="button" type="button" id="btnm+" value="m+" onclick="memoryPlus()">M+</button></td>
+          <td><button name="button" type="button" id="btnm-" value="m-" onclick="memoryMinus()">M-</button></td>
+          <td><button name="button" type="button" id="btnmr" value="mr" onclick="memoryR()">MR</button></td>
+        </tr>
+        <tr>
+          <td><button name="button" type="button" id="btn1" value="1" onclick="one()">1</button></td>
+          <td><button name="button" type="button" id="btn2" value="2" onclick="two()">2</button></td>
+          <td><button name="button" type="button" id="btn3" value="3" onclick="three()">3</button></td>
+          <td><button name="button" type="button" id="btn+" value="+" onclick="operationSum()">+</button></td>
+        </tr>
+        <tr>
+          <td><button name="button" type="button" id="btn4" value="4" onclick="four()">4</button></td>
+          <td><button name="button" type="button" id="btn5" value="5" onclick="five()">5</button></td>
+          <td><button name="button" type="button" id="btn6" value="6" onclick="six()">6</button></td>
+          <td><button name="button" type="button" id="btn-" value="-" onclick="operationSub()">-</button></td>
+        </tr>
+        <tr>
+          <td><button name="button" type="button" id="btn7" value="7" onclick="seven()">7</button></td>
+          <td><button name="button" type="button" id="btn8" value="8" onclick="eight()">8</button></td>
+          <td><button name="button" type="button" id="btn9" value="9" onclick="nine()">9</button></td>
+          <td><button name="button" type="button" id="btn*" value="*" onclick="operationMul()">x</button></td>
+        </tr>
+        <td><button name="button" type="button" id="btnc" value="C" onclick="operationClr()">C</button></td>
+        <td><button name="button" type="button" id="btn0" value="0" onclick="zero()">0</button></td>
+        <td><button name="button" type="button" id="btn=" value="=" onclick="resultado()">=</button></td>
+        <td><button name="button" type="button" id="btn/" value="/" onclick="operationDiv()">÷</button></td>
+      </table>
+    </form>
+    <a href="/index.html"><button style="margin-top: 5%">Back to Portfolio</button></a>
+  </body>
+</html>

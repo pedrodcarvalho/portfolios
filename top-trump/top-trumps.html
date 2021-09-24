@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Trumps</title>
+    <link rel="stylesheet" href="/top-trump/css/style.css">
+    <script src="/top-trump/js/script.js"></script>
+    <link rel="shortcut icon" href="/favicons/top-trump.ico" type="image/x-icon">
+  </head>
+
+  <body>
+    <div class="container">
+      <h2>TOP TRUMPS</h2>
+      <button onclick="sortearCarta()" id="btnSortear">Pick a Card</button>
+      <form id="form">
+        <p id="choice"></p>
+        <div class="wrapper">
+          <div>
+            <div id="carta-jogador">
+              <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/card-super-trunfo-transparent-ajustado.png" style="width: inherit; height: inherit; position: absolute">
+              <h3></h3>
+            </div>
+          </div>
+          <div>
+            <div id="carta-maquina" class="carta"><img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/card-super-trunfo-transparent-ajustado.png" style="width: inherit; height: inherit; position: absolute"></div>
+          </div>
+        </div>
+        <p style="color: white">Result</p>
+        <div id="resultado-final">You...</div>
+      </form>
+    </div>
+    <div id="btns">
+      <button type="button" id="btnJogar" onclick="jogar()" disabled="true">Play</button>
+      <button type="button" id="btnReload" onclick="reload()">Reload</button>
+      <button onclick="window.location.href='/index.html'">Back to Portfolio</button>
+      <p style="color: white">Copyright &copy 2021 | pedrodcarvalho</p>
+    </div>
+  </body>
+</html>
