@@ -28,3 +28,28 @@ table {
   top: 100px;
   bottom: 100px;
 }
+
+@media all {
+  @media (max-width: 340px) {
+    table {
+      margin: 0;
+      margin-bottom: 200px;
+    }
+  }
+
+  @media (max-width: 288px) {
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    form {
+      padding: 0;
+    }
+
+    table {
+      margin: 0;
+      padding: 0;
+    }
+  }
+}
