@@ -1,0 +1,312 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Stalinist+One&display=swap");
+
+body {
+  margin: unset;
+  background-color: #202124;
+  color: #f1faee;
+  font-family: "Roboto", serif;
+}
+body * {
+  display: flex;
+  box-sizing: border-box;
+  margin: unset;
+}
+script {
+  display: none;
+}
+.name {
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Stalinist One", cursive;
+  color: #e63946;
+  font-size: 15px;
+}
+#name-hey {
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto", serif;
+  font-weight: 500;
+  color: #f1faee;
+  font-size: 20px;
+}
+.text-about {
+  margin: 100px 200px 0 0;
+  display: flex;
+  flex-direction: column;
+}
+.title-cs {
+  padding-bottom: 50 px;
+  font-weight: 800;
+  font-size: 40px;
+}
+.p-about {
+  font-weight: 300;
+  font-size: 25px;
+}
+.p-about-small {
+  color: #a8dadc;
+  font-weight: 300;
+  font-size: 20px;
+}
+.about {
+  justify-content: space-between;
+  width: 100vmax;
+  background-color: #457b9d;
+}
+.nav-bar {
+  background-color: #1d3557;
+  height: 50px;
+  width: 100vmax;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-bar a {
+  color: #f1faee;
+  font-weight: 900;
+  font-size: 25px;
+  text-decoration: none;
+  align-items: center;
+}
+.social {
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.fa-github {
+  font-size: 50.5px;
+  color: #1d3557;
+}
+.fa-linkedin {
+  font-size: 50px;
+  color: #1d3557;
+}
+#social-github {
+  border: solid 5px #1d3557;
+  border-radius: 100%;
+  color: #457b9d;
+}
+#social-github a {
+  text-decoration: none;
+}
+#social-github :hover {
+  cursor: pointer;
+}
+#social-linkedin {
+  border: solid 5px #1d3557;
+  border-radius: 100%;
+  color: #457b9d;
+}
+#social-linkedin :hover {
+  cursor: pointer;
+}
+.main-picture {
+  justify-content: center;
+  width: 100vmax;
+  background-color: #e63946;
+  height: 335px;
+}
+.more-about {
+  flex-direction: column;
+  margin: 250px 100px 100px 100px;
+  border-radius: 20px;
+  height: 700px;
+  background-color: #457b9d;
+}
+#title-about {
+  padding-top: 50px;
+  align-items: center;
+  justify-content: center;
+  font-family: "Stalinist One", cursive;
+  font-weight: 900;
+  font-size: 50px;
+}
+.text-about-2 {
+  padding-left: 50px;
+  display: flex;
+  flex-direction: row;
+  font-weight: 300;
+  font-size: 25px;
+}
+.image-about {
+  width: 370px;
+  height: 250px;
+}
+.projects {
+  flex-direction: column;
+  text-align: center;
+  margin: 250px 100px 100px 100px;
+  border-radius: 20px;
+  height: 700px;
+  width: 100vmax;
+  background-color: #457b9d;
+}
+.projects ol {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-left: 0px;
+}
+.projects li,
+list item mark {
+  color: #f1faee;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 900;
+  margin-top: 20px;
+  list-style-type: decimal;
+}
+.projects a {
+  color: #f1faee;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 900;
+}
+.images {
+  padding-top: 100px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#input-field {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  background-color: #1d3557;
+  border: 5px solid #457b9d;
+  border-radius: 5px;
+}
+.feedback {
+  flex-direction: column;
+  height: 335px;
+  margin: 250px 100px 0 100px;
+}
+.feedback-container {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vmax;
+}
+.feedback p {
+  font-weight: 900;
+  font-size: 50px;
+}
+.feedback-2 form,
+textarea {
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  color: #f1faee;
+}
+.feedback-1 {
+  align-items: center;
+  justify-content: center;
+}
+.feedback-2 input {
+  margin-top: 25px;
+  padding: 20px 40px 20px 40px;
+  background-color: #1d3557;
+  border: 5px solid #457b9d;
+  border-radius: 10px;
+}
+.feedback-2 :hover input {
+  cursor: pointer;
+}
+.footer {
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 250px;
+  width: 100vmax;
+  height: 335px;
+  background-color: #1d3557;
+}
+
+@media (max-width: 1467px) {
+  .text-about-2 p {
+    font-size: 20px;
+  }
+}
+@media (max-width: 1402px) {
+  .images img {
+    height: 125px;
+    width: 200px;
+  }
+}
+@media (max-width: 1227px) {
+  .text-about-2 p {
+    font-size: 15px;
+  }
+}
+@media (max-width: 1180px) {
+  .text-about p,
+  h1 {
+    font-size: 20px;
+  }
+  .text-about-2 p {
+    font-size: 15px;
+  }
+}
+@media (max-width: 1052px) {
+  .text-about-2 p {
+    font-size: 10px;
+  }
+}
+@media (max-width: 937px) {
+  .about img {
+    height: 200px;
+    width: 200px;
+  }
+  .text-about p,
+  h1 {
+    font-size: 10px;
+  }
+  .text-about-2 p {
+    font-size: 15px;
+  }
+  .image-about {
+    width: 0px;
+  }
+  .image-about img {
+    width: 0px;
+  }
+  .more-about {
+    margin-right: 0px;
+  }
+}
+@media (max-width: 800px) {
+  .more-about,
+  .projects {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  #input-field {
+    max-width: 500px;
+  }
+  .feedback {
+    margin-left: 0px;
+  }
+}
+@media (max-width: 500px) {
+  .text-about {
+    margin-top: 15px;
+    margin-right: 0;
+  }
+  .text-about p,
+  h1 {
+    font-size: 10px;
+  }
+  .images img {
+    height: 65px;
+    width: 100px;
+  }
+  .name h1 {
+    font-size: 20px;
+  }
+  .about img {
+    height: 100px;
+    width: 100px;
+  }
+}

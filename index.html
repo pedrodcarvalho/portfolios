@@ -1,34 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./js/script.js"></script>
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <script src="https://kit.fontawesome.com/21ac4c37bd.js"></script>
     <title>Portfolio</title>
-    <link rel="stylesheet" href="/portfolio/css/style.css">
-    <script src="/portfolio/js/script.js"></script>
-    <link rel="shortcut icon" href="/favicons/portfolio.ico" type="image/x-icon">
   </head>
   <body>
-    <div class="container">
-      <header class="profile">
-        <img id="profile-pic" src="https://avatars.githubusercontent.com/u/83586350?v=4" width="230" height="230" alt="profile picture">
-        <div class="title">
-          <h1>Pedro Carvalho</h1>
-          <h3>Computer Engineer Student</h3>
-          <button class="theme" onclick="theme()">🌑</button>
-        </div>
-      </header>
-      <div class="sub-container">
-        <main class="projects">
-          <ul>
-            <h1 class="projects">Projects</h1>
-            <li><a href="/top-trump/top-trumps.html">Top Trumps</a></li>
-            <li><a href="/tic-tac-toe/tic-tac-toe.html">Tic Tac Toe</a></li>
-            <li><a href="/calculator/calculator.html">Calculator</a></li>
-          </ul>
-        </main>
+    <header>
+      <div class="name">
+        <p id="name-hey">Hey, I'm</p>
+        <h1>Pedro Carvalho</h1>
       </div>
-    </div>
+    </header>
+    <nav>
+      <div class="nav-bar">
+        <a href="#anchor-about">About Me</a>
+        <a href="#anchor-projects">Projects</a>
+        <a href="#anchor-feedback">Leave a Feedback</a>
+        <a href="mailto:pedrodc51203@gmail.com">Contact Me</a>
+      </div>
+    </nav>
+    <main>
+      <div class="about">
+        <img src="https://avatars.githubusercontent.com/u/83586350" alt="profile picture" width="400" height="400" />
+        <div class="text-about">
+          <p class="title-cs">Computer Engineer Student</p>
+          <p class="p-about">Trying everyday to improve myself as an developer.</p>
+          <p class="p-about">&nbsp;&nbsp;&nbsp;Focusing and diving deep into programming.</p>
+          <p class="p-about">&nbsp;&nbsp;&nbsp;Current learning front-end development,</p>
+          <p class="p-about-small">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Already studied at university: Python, C, Assembly x86.</p>
+        </div>
+        <div class="social">
+          <button id="social-github">
+            <a href="https://github.com/pedrodcarvalho"><span class="fab fa-github"></span></a>
+          </button>
+          <button id="social-linkedin">
+            <a href="https://www.linkedin.com/in/pedro-carvalho-a92bab210/"><span class="fab fa-linkedin"></span></a>
+          </button>
+        </div>
+      </div>
+    </main>
+    <article>
+      <div class="main-picture">
+        <img src="./assets/developer-blue.webp" alt="developer coding" width="341" height="341" />
+      </div>
+    </article>
+    <section>
+      <div class="more-about">
+        <a id="anchor-about"></a>
+        <div id="title-about">
+          <p>About Me</p>
+        </div>
+          <div class="text-about-2">
+            <p>Hey there, how you doing? I'm Pedro, born and raised in São Paulo, Brazil. My history from my childhood till today is basically the same as every dev had. Since I was a kid, like 4 years old, I started to play video games, and since that my connections with any kind of technology just increased each day more. Last year (2020) was the year of my graduation and I needed to chosse a major. So certainly I chose a major in the computing area that in the case was Computer Engineering. I applied to two universities but just got one, that was PUCC (Pontifícia Universidade Católica de Campinas). Now I'm currently in my first year in PUCC. My future plans are to study abroad in Netherlands and change my major to Computer Science. In the end of this year I will apply to dutch universities, and with a lot of hope I will be able to enter in one of these universities.</p>
+            <div class="image-about">
+              <img src="./assets/developer-cyan.png" alt="developer coding" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="projects">
+        <a id="anchor-projects"></a>
+        <div id="title-about">
+          <p>Projects</p>
+        </div>
+        <ol>
+          <li><a href="#anchor-projects">Top Trumps</a></li>
+          <li><a href="#anchor-projects">Tic Tac Toe</a></li>
+          <li><a href="#anchor-projects">Calculator</a></li>
+        </ol>
+        <div class="images">
+          <img src="./assets/top-trumps.png" alt="top trumps" width="400px" height="250px" />
+          <img src="./assets/tic-tac-toe.png" alt="tic tac toe" width="400px" height="250px" />
+          <img src="./assets/calculator.png" alt="calculator" width="400px" height="250px" />
+        </div>
+      </div>
+    </section>
+    <article>
+      <a id="anchor-feedback"></a>
+      <div class="feedback-container">
+        <div class="feedback">
+          <div class="feedback-1">
+            <p>Give your feedback!</p>
+          </div>
+          <div class="feedback-2">
+            <form>
+              <textarea id="input-field" cols="90" rows="13" value="ola" placeholder="Write some feedback, it's free! :)"></textarea>
+              <input type="button" value="Send" />
+            </form>
+          </div>
+        </div>
+      </div>
+    </article>
+    <footer>
+      <div class="footer">
+        <p>Copyright &copy 2021, <span id="about-blue">Pedro Carvalho</span></p>
+        <p>
+          “Any fool can write code that a computer can understand. <br />
+          Good programmers write code that humans can understand.” <br />
+          – Martin Fowler
+        </p>
+        <p>Notes: Some responsive features and my projects still will be added</p>
+      </div>
+    </footer>
   </body>
 </html>
