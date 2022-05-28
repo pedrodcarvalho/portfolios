@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Pedro Carvalho Portfolio" />
+    <meta name="keywords" content="Pedro Carvalho, Portfolio, Web Development" />
+    <meta name="author" content="Pedro Carvalho" />
+    <title>Pedro Carvalho</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./main.js" defer></script>
+    <link rel="shortcut icon" href="./public/images/favicon.ico" type="image/x-icon" />
+    <script src="https://kit.fontawesome.com/21ac4c37bd.js" crossorigin="anonymous"></script>
+  </head>
+  <body id="home">
+    <nav>
+      <div class="nav-bar list" id="nav-bar">
+        <a href="#home">0. Home</a>
+        <a href="#about-me">1. About Me</a>
+        <a href="#projects">2. Projects</a>
+        <a href="#contact-me">3. Contact</a>
+      </div>
+    </nav>
+    <div class="show-nav-bar" id="show-nav-bar"><i class="fa-solid fa-arrow-down"></i></div>
+    <section>
+      <div id="dark-mode-banner" class="dark-mode-banner">
+        <h1>The dark force raises, you've activated the dark mode!</h1>
+        <button id="button-close">Cool!</button>
+      </div>
+    </section>
+    <header class="wrapper">
+      <div id="hello-world">
+        <h1>Hello</h1>
+        <h1>World!</h1>
+      </div>
+      <nav>
+        <div class="list">
+          <a href="#home">0. Home</a>
+          <a href="#about-me">1. About Me</a>
+          <a href="#projects">2. Projects</a>
+          <a href="#contact-me">3. Contact</a>
+        </div>
+      </nav>
+      <button id="color-mode">Dark Mode <i class="fa-solid fa-moon"></i></button>
+    </header>
+    <p class="name" id="name"></p>
+    <section id="quote">
+      <h1 id="big-font">“I have no special talents. I am only passionately curious.”</h1>
+      <h1 class="ae" id="big-font">-Albert Einstein</h1>
+    </section>
+    <main>
+      <i id="about-me"></i>
+      <h1 class="titles">About Me</h1>
+      <section class="about-me">
+        <div class="about-me-text">
+          <p>
+            My name's Pedro Carvalho I'm 19 and I'm natural from Brazil. I started to program in the <br />
+            beginning of 2019 and the languages that I've learned so far were: <i id="asm">Assembly</i>, <i id="c">C</i>, <i id="cpp">C++</i>,<br />
+            <i id="js">JavaScript</i>, and <i id="py">Python</i>. This year (2022) I will be joining the <i>bachelor</i> course in <i>Computer</i><br />
+            <i>Science</i> at <strong>VU</strong> (Vrije Universiteit), a Dutch university. I'm looking foward to study abroad<br />
+            and also what this course can offer me.
+          </p>
+          <p>
+            I've been doing some projects in my free time bacause I think that the best way to fix all<br />
+            the content that I learn is by doing small projects (also exercices, of course). So I will put<br />
+            some of my projects here in the projects section. I hope that you enjoy them!<br />
+            <span id="small-text">I think that's all I have to say about me since I've never had any professional experiences (<strong>atleast for now</strong>). 👋</span>
+          </p>
+          <p id="fun-facts-title">Fun facts:</p>
+          <p id="fun-facts">
+            <span>0.</span> I love to do <i class="fun-f-purple" id="fun-facts">projects</i> and conding problems<br />
+            <span>1.</span> Since I started to program I'm fascinated with the <i class="fun-f-purple" id="fun-facts">programming world</i><br />
+            <span>2.</span> I'm a big fan of <i class="fun-f-purple" id="fun-facts">web development</i> and its technologies<br />
+            <span>3.</span> I'm an avid <i class="fun-f-purple" id="fun-facts">gamer</i><br />
+            <span>4. </span> I like to <i class="fun-f-purple" id="fun-facts">workout</i><br />
+          </p>
+        </div>
+      </section>
+      <div class="section-limiter"></div>
+      <i id="projects"></i>
+      <h1 class="titles"><span id="some">(Some)</span> Projects</h1>
+      <p class="wrapper-center">Both projects were developed when I was doing Computer Enginnering at PUCC (Pontifícia Universidade Católica de Campinas), a brazilian university.</p>
+      <section class="projects">
+        <div class="projects">
+          <div class="wrapper-center">
+            <div class="images list">
+              <img src="./public/images/games-inc.png" alt="games and quizzes website developed for my final web development exam" />
+              <a href="https://final-web-dev-project.glitch.me">Go to this project</a>
+            </div>
+            <div class="project-text">
+              <h1>Games Website</h1>
+              <p>This project was developed due to my final exam of the Web Development class in 2021.</p>
+              <br />
+              <p id="technology">Technology used:</p>
+              <li id="html">HTML</li>
+              <li id="css">CSS</li>
+              <li id="js">JavaScript</li>
+              <li id="node">Node.js</li>
+              <li id="express">Express</li>
+              <li id="ejs">Views (EJS)</li>
+              <li id="json">JSON</li>
+            </div>
+          </div>
+          <div class="project-limiter"></div>
+          <div class="wrapper-center">
+            <div class="images list">
+              <img src="./public/images/assembly-calculator.png" alt="assembly calculator" />
+              <a href="https://gist.github.com/pedrodcarvalho/b958965110ec9ddd842769745970dfd3">Go to this project</a>
+            </div>
+            <div class="project-text wrapper-r-margin">
+              <h1>Assembly Calculator</h1>
+              <p>This project was developed during the last 3 months of 2021 (when I was learning Assembly) due to my final exam of the Organization of Computer Sistems class.</p>
+              <br />
+              <p id="technology">Technology used:</p>
+              <br />
+              <li id="asm">Assembly x86 TASM</li>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="section-limiter"></div>
+      <i id="contact-me"></i>
+      <h1 class="titles">Contact Me!</h1>
+      <p class="its-free" id="its-free">// It's free! 😉</p>
+      <section class="contact-me">
+        <div class="contact-form">
+          <form action="https://formspree.io/f/mayvvoyz" method="POST">
+            <label>
+              Your name:
+              <input type="name" name="name" />
+            </label>
+            <label>
+              Your message:
+              <textarea name="message"></textarea>
+            </label>
+            <button type="submit">Send</button>
+          </form>
+        </div>
+        <div class="contact-list">
+          <a href="https://github.com/pedrodcarvalho"><i class="fa-brands fa-github-square"></i></a>
+          <a href="https://www.linkedin.com/in/pedro-carvalho-a92bab210/"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://instagram.com/pedrodcarvalhoo"><i class="fa-brands fa-instagram-square"></i></a>
+          <a href="mailto:pedrodc51203@gmail.com"><i class="fa-solid fa-reply"></i></a>
+        </div>
+      </section>
+      <div class="section-limiter"></div>
+      <section class="programming-section">
+        <button id="programming-button">Programming Quote</button>
+        <p id="programming-quote"></p>
+      </section>
+      <footer class="footer">
+        <p>Copyright &copy; 2020 Pedro Carvalho. All rights reserved</p>
+      </footer>
+    </main>
+  </body>
+</html>
